@@ -1,15 +1,20 @@
 ---
 date: '1'
-title: 'Halcyon Theme'
-cover: './halcyon.png'
+title: 'Three-Tier-DevSecOps'
+cover: './3-teir.png'
 github: 'https://github.com/bchiang7/halcyon-site'
 external: 'https://halcyon-theme.netlify.com/'
 tech:
-  - VS Code
-  - Sublime Text
-  - Atom
-  - iTerm2
-  - Hyper
+  - AWS (IAM, EC2, EKS, ALB, ECR),
+  - Terraform
+  - Jenkins
+  - Kubernetes (eksctl, Kubectl)
+  - Docker
+  - Sonarqube
+  - ArgoCD
+  - Helm
+  - Prometheus and Grafana for monitoring
+  - DNS configuration,
 ---
 
-A minimal, dark blue theme for VS Code, Sublime Text, Atom, iTerm, and more. Available on [Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=brittanychiang.halcyon-vscode), [Package Control](https://packagecontrol.io/packages/Halcyon%20Theme), [Atom Package Manager](https://atom.io/themes/halcyon-syntax), and [npm](https://www.npmjs.com/package/hyper-halcyon-theme).
+Implemented a comprehensive DevSecOps project on AWS, deploying a Three-Tier architecture using Kubernetes. Orchestrated the setup of a secure and scalable environment, integrating CI/CD pipelines, security measures, and monitoring tools. Key accomplishments include IAM user configuration, Terraform-based Jenkins server deployment, EKS cluster setup, ArgoCD implementation, and DNS configuration for custom subdomains.

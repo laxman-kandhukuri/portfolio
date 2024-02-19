@@ -1,13 +1,16 @@
 ---
-date: '2018-05-14'
-title: 'Lead Engineer'
-company: 'Upstatement'
-location: 'Boston, MA'
-range: 'May 2018 - Present'
-url: 'https://www.upstatement.com/'
+date: '2023-06-05'
+title: 'Sr.Analyst'
+company: 'InvenTech info solution'
+location: 'Hyderabad, IN'
+range: 'March 2022 - June 2023'
+url: 'https://inventechinfo.com/'
 ---
 
-- Deliver high-quality, robust production code for a diverse array of projects for clients including Harvard Business School, Everytown for Gun Safety, Pratt Institute, Koala Health, Vanderbilt University, The 19th News, and more
-- Work alongside creative directors to lead the research, development, and architecture of technical solutions to fulfill business requirements
-- Collaborate with designers, project managers, and other engineers to transform creative concepts into production realities for clients and stakeholders
-- Provide leadership within engineering department through close collaboration, knowledge shares, and mentorship
+- Efficient it support for end-users hardware, software, and network issues
+- Collaborated with cross-functional teams to address complex issues.
+- Escalated challenging problems to the appropriate IT teams for resolution.
+- Used service now for ticket management in incident resolution
+- Collaborated with teams, escalated complex issues, and maintained accurate records
+- Conducted asset management for hardware/software inventory-
+- Proficient in BitLocker encryption, password resets, and user id unlocking
