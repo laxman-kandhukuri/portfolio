@@ -1,5 +1,5 @@
 ---
-date: '2'
+date: '3'
 title: 'DevSecOps project — Netflix clone'
 cover: './pipeline.png'
 github: 'https://github.com/laxman-kandhukuri/Netflix-clone'

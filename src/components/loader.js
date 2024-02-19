@@ -34,7 +34,7 @@ const Loader = ({ finishLoading }) => {
   useEffect(() => {
     const dot = document.getElementById('dot');
     const path = document.getElementById('lemniscate');
-    const totalDuration = 9000; // Total duration for the dot to travel the entire path
+    const totalDuration = 9800; // Total duration for the dot to travel the entire path
     const textDuration = 800; // Duration before the words start appearing
     let progress = 0;
 
