@@ -1,9 +1,6 @@
 import React, { useState, useEffect } from 'react';
-import { Helmet } from 'react-helmet';
 import PropTypes from 'prop-types';
-import anime from 'animejs';
 import styled from 'styled-components';
-import { IconLoader } from '@components/icons';
 
 const StyledLoader = styled.div`
   ${({ theme }) => theme.mixins.flexCenter};
@@ -19,74 +16,72 @@ const StyledLoader = styled.div`
 
   .logo-wrapper {
     width: max-content;
-    max-width: 100px;
+    max-width: 700px; /* Increased maximum width */
     transition: var(--transition);
     opacity: ${props => (props.isMounted ? 1 : 0)};
-    svg {
-      display: block;
-      width: 100%;
-      height: 100%;
-      margin: 0 auto;
-      fill: none;
-      user-select: none;
-      #B {
-        opacity: 0;
-      }
-    }
   }
 `;
 
 const Loader = ({ finishLoading }) => {
   const [isMounted, setIsMounted] = useState(false);
-
-  const animate = () => {
-    const loader = anime.timeline({
-      complete: () => finishLoading(),
-    });
-
-    loader
-      .add({
-        targets: '#logo path',
-        delay: 300,
-        duration: 1500,
-        easing: 'easeInOutQuart',
-        strokeDashoffset: [anime.setDashoffset, 0],
-      })
-      .add({
-        targets: '#logo #B',
-        duration: 700,
-        easing: 'easeInOutQuart',
-        opacity: 1,
-      })
-      .add({
-        targets: '#logo',
-        delay: 500,
-        duration: 300,
-        easing: 'easeInOutQuart',
-        opacity: 0,
-        scale: 0.1,
-      })
-      .add({
-        targets: '.loader',
-        duration: 200,
-        easing: 'easeInOutQuart',
-        opacity: 0,
-        zIndex: -1,
-      });
-  };
+  const [pathLength, setPathLength] = useState(0);
 
   useEffect(() => {
-    const timeout = setTimeout(() => setIsMounted(true), 10);
-    animate();
-    return () => clearTimeout(timeout);
+    const path = document.getElementById('lemniscate');
+    setPathLength(path.getTotalLength());
   }, []);
+
+  useEffect(() => {
+    const dot = document.getElementById('dot');
+    const path = document.getElementById('lemniscate');
+    const totalDuration = 9000; // Total duration for the dot to travel the entire path
+    const textDuration = 800; // Duration before the words start appearing
+    let progress = 0;
+
+    const animate = () => {
+      dot.style.visibility = 'visible';
+      const interval = setInterval(() => {
+        const point = path.getPointAtLength(progress);
+        dot.setAttribute('cx', point.x);
+        dot.setAttribute('cy', point.y);
+        path.style.strokeDasharray = progress + ' ' + pathLength; // Set the stroke-dasharray to control the appearance of the path
+        progress += (totalDuration / 1000); // Increment the progress based on total duration
+        if (progress >= textDuration) {
+          dot.style.visibility = 'hidden';
+          clearInterval(interval); // Stop the animation once the dot completes the path
+          finishLoading(); // Notify when the loader animation finishes
+        }
+      }, 20);
+      return interval;
+    };
+
+    const timeout = setTimeout(() => {
+      setIsMounted(true);
+      animate();
+    }, 10);
+
+    return () => {
+      clearTimeout(timeout);
+    };
+  }, [pathLength, finishLoading]);
 
   return (
     <StyledLoader className="loader" isMounted={isMounted}>
-      <Helmet bodyAttributes={{ class: `hidden` }} />
-
       <div className="logo-wrapper">
-        <IconLoader />
+        {/* Lemniscate Logo */}
+        <svg xmlns="http://www.w3.org/2000/svg" width="1000" height="1000" viewBox="0 0 600 600"> {/* Increased dimensions */}
+          {/* First Half of Lemniscate */}
+          <text x="200" y="310" fill="white" fontSize="48" fontWeight="bold">Dev</text>
+          {/* Second Half of Lemniscate */}
+          <text x="328" y="310" fill="white" fontSize="48" fontWeight="bold">Ops</text>
+          {/* Path for Lemniscate */}
+          <path id="lemniscate" d="M300,300 
+                                      C450,480 450,120 300,300 
+                                      C150,480 150,120 300,300"
+                                      fill="none" stroke="hsl(162, 95%, 78%)" strokeWidth="10" strokeDasharray="0 100000" /> {/* Initial stroke-dasharray with a large value */}
+          {/* Dot */}
+          <circle id="dot" cx="300" cy="300" r="12" fill="hsl(162, 95%, 78%)" style={{ visibility: 'hidden' }} />
+        </svg>
       </div>
     </StyledLoader>
   );
