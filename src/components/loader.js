@@ -70,10 +70,6 @@ const Loader = ({ finishLoading }) => {
       <div className="logo-wrapper">
         {/* Lemniscate Logo */}
         <svg xmlns="http://www.w3.org/2000/svg" width="1000" height="1000" viewBox="0 0 600 600"> {/* Increased dimensions */}
-          {/* First Half of Lemniscate */}
-          <text x="200" y="310" fill="white" fontSize="48" fontWeight="bold">Dev</text>
-          {/* Second Half of Lemniscate */}
-          <text x="328" y="310" fill="white" fontSize="48" fontWeight="bold">Ops</text>
           {/* Path for Lemniscate */}
           <path id="lemniscate" d="M300,300 
                                       C450,480 450,120 300,300 
