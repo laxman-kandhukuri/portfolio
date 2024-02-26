@@ -1,6 +1,6 @@
 ---
-date: '2017-03-01'
-title: 'Crowd DJ'
+date: '2024-01-03'
+title: 'Deploying a Containerized Web Application'
 github: 'https://github.com/crowddj/crowddj-react'
 external: ''
 tech:

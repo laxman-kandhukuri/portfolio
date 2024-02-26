@@ -65,8 +65,8 @@ const Hero = () => {
   const four = (
     <>
       <p>
-      I work in the exciting field of DevOps, where I bridge the gap between development and operations to create seamless and efficient digital experiences
-      I specialize in crafting DevOps solutions that prioritize accessibility and human-centered design ensuring that our products are not only robust and reliable but also accessible to all users. Whether it's automating deployment processes, optimizing infrastructure, or implementing continuous integration and delivery pipelines, I am dedicated to building and maintaining exceptional digital experiences.
+      I'M DevOps Engineer, I bridge the gap between development and operations to create seamless and efficient digital experiences
+      by crafting DevOps solutions. Whether it's automating deployment processes, optimizing infrastructure, or implementing continuous integration and delivery pipelines, I am dedicated to lean more.
         .
       </p>
     </>

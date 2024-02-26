@@ -13,4 +13,4 @@ url: 'https://inventechinfo.com/'
 - Used service now for ticket management in incident resolution
 - Collaborated with teams, escalated complex issues, and maintained accurate records
 - Conducted asset management for hardware/software inventory-
-- Proficient in BitLocker encryption, password resets, and user id unlocking
+

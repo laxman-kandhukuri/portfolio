@@ -5,17 +5,16 @@ cover: './devops.png'
 github: 'https://github.com/laxman-kandhukuri/complete-Devops-pipeline'
 external: 'https://medium.com/@laxmankandhukuri/'
 tech:
-  - Jenkins
-  - SonarQube
-  - Trivy
-  - TLS
-  - Prometheus
-  - Grafana
   - GIT
+  - Jenkins
   - Kubernetes
   - Docker
-  - CI/CD Pipelines
+  - TLS/SSL encryption
+  - SonarQube
+  - Trivy
+  - Prometheus
+  - Grafana
   - Email Alert Configurati
 ---
 
-DevOps project integrates Git, Jenkins, Kubernetes, Docker, Maven, SonarQube, Trivy, ArgoCD, and Nginx Reverse Proxy for efficient software development and deployment. Git manages version control, Jenkins automates continuous integration, Kubernetes orchestrates containers, and Docker facilitates containerization. Maven streamlines build processes while SonarQube ensures code quality, and Trivy scans for vulnerabilities. ArgoCD automates deployment, promoting consistency. TLS/SSL encryption via an Nginx Reverse Proxy secures server communication. This comprehensive setup optimizes workflows, enhances security, and facilitates seamless software delivery.
+DevOps project integrates TLS/SSL encryption via an Nginx Reverse Proxy secures server communication. This comprehensive setup facilitates seamless software delivery using Git,Jenkins, Kubernetes, Docker, Maven streamlines build processes enhances security with SonarQube, Trivy. ArgoCD automates deployment,

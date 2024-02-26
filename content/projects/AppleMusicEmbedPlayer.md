@@ -1,14 +1,17 @@
 ---
-date: '2017-12-01'
-title: 'Apple Music Embeddable Web Player Widget'
+date: '2024-01-20'
+title: 'Infrastructure Monitoring with Prometheus and Grafana'
 github: ''
-external: 'https://tools.applemusic.com/en-us'
+external: ''
 tech:
-  - MusicKit.js
-  - JS
-  - SCSS
-company: 'Apple'
+- Prometheus
+- Grafana
+- Docker
+- Jenkins
+- Terraform
+- AWS
+company: ''
 showInProjects: true
 ---
 
-Embeddable web player widget for Apple Music that lets users log in and listen to full song playback in the browser leveraging [MusicKit.js](https://developer.apple.com/documentation/musickitjs). Read more about this project on [9to5Mac](https://9to5mac.com/2018/06/03/apple-music-embeddable-web-player-listen-browser/).
+Deploy Prometheus and Grafana for monitoring infrastructure on AWS. Utilize Docker for containerizing services, Jenkins for automating deployment, and Terraform for infrastructure setup

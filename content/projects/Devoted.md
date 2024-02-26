@@ -1,14 +1,15 @@
 ---
 date: '2018-12-01'
-title: 'Devoted Health'
+title: 'Automated Testing Pipeline for Python Application'
 github: ''
-external: 'https://www.devoted.com/'
+external: ''
 tech:
-  - Gatsby
-  - TypeScript
-  - Algolia
-company: 'Upstatement'
-showInProjects: false
+  - Python
+  - Git
+  - Jenkins
+  - Docker
+company: ''
+showInProjects: true
 ---
 
-A site for a revolutionary healthcare company, including an Algolia instant search integration
+Set up an automated testing pipeline for a Python application. Use Git for version control, Jenkins for continuous integration, and Docker for running tests in isolated environments.

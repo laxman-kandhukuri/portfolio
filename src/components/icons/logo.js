@@ -15,11 +15,16 @@ const IconLogo = () => (
           fill="none"
           points="39 0 0 22 0 67 39 90 78 68 78 23"
         />
-        {/* 'L' representing 3:00 */}
-        <path
-          fill="hsl(162, 95%, 78%)"
-          d="M50 40 L50 60 L70 60 L70 50 L60 50 L60 40 Z"
-        />
+        {/* 'LK' text */}
+        <text
+          x="28" // Adjusted for better centering
+          y="60" // Adjusted for vertical centering
+          fontFamily="Arial"
+          fontSize="50" // Increased size
+          fontWeight="bold" // Make it bold
+          fill="hsl(162, 95%, 78%)">
+            L
+        </text>
       </g>
     </g>
   </svg>

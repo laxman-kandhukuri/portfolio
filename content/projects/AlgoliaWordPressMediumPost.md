@@ -1,14 +1,17 @@
 ---
-date: '2020-03-27'
-title: 'Integrating Algolia Search with WordPress Multisite'
+date: '2024-02-06'
+title: 'Automated Deployment Pipeline'
 github: ''
-external: 'https://medium.com/stories-from-upstatement/integrating-algolia-search-with-wordpress-multisite-e2dea3ed449c'
+external: 'https://medium.com/@laxmankandhukuri'
 tech:
-  - Algolia
-  - WordPress
-  - PHP
-company: 'Upstatement'
+  - Git 
+  - Jenkins, 
+  - Docker, 
+  - Kubernetes, 
+  - Shell scripting, 
+  - Terraform 
+company: ''
 showInProjects: true
 ---
 
-Building a custom multisite compatible WordPress plugin to build global search with Algolia
+Develop a CI/CD pipeline that automates the deployment process from code commit to production release. This project involves setting up version control, automated testing, continuous integration, and continuous deployment.

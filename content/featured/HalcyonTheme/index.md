@@ -8,13 +8,14 @@ tech:
   - AWS (IAM, EC2, EKS, ALB, ECR),
   - Terraform
   - Jenkins
-  - Kubernetes (eksctl, Kubectl)
-  - Docker
+  - Kubernetes (eksctl)
+  - Docker.
   - Sonarqube
   - ArgoCD
   - Helm
+  - DNS configuration
   - Prometheus and Grafana for monitoring
-  - DNS configuration,
+  
 ---
 
-Implemented a comprehensive DevSecOps project on AWS, deploying a Three-Tier architecture using Kubernetes. Orchestrated the setup of a secure and scalable environment, integrating CI/CD pipelines, security measures, and monitoring tools. Key accomplishments include IAM user configuration, Terraform-based Jenkins server deployment, EKS cluster setup, ArgoCD implementation, and DNS configuration for custom subdomains.
+Three-Tier architecture (Frontend, Backend, Database) using Kubernetes. Integrating CI/CD pipelines. security measures, and monitoring tools. IAM user configuration, Terraform-based Jenkins server deployment, EKS cluster, ArgoCD implementation, and DNS configuration.

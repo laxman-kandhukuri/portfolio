@@ -6,7 +6,7 @@ github: 'https://github.com/laxman-kandhukuri/Netflix-clone'
 external: 'https://medium.com/@laxmankandhukuri/devsecops-project-netflix-clone-878fcaa87480'
 tech:
   - Google Cloud Platform (GCP)
-  - Jenkins
+  - Jenkins.
   - SonarQube
   - Trivy
   - Prometheus
@@ -18,4 +18,4 @@ tech:
   - Email Alert Configurati
 ---
 
-Led the establishment of a robust DevOps environment on Google Cloud Platform (GCP), deploying Jenkins, SonarQube, Trivy, Prometheus, Grafana, and OWASP Dependency-Check. Orchestrated infrastructure setup with optimized servers for Jenkins, Monitoring, Kubernetes Master, and Kubernetes Worker. Implemented CI/CD pipelines, security checks, and real-time monitoring, enhancing software development and deployment efficiency.
+DevOps project on GCP, deploying Jenkins, SonarQube, Trivy, Prometheus, Grafana, and OWASP Dependency-Check. Orchestrated infrastructure. Implemented CI/CD pipelines, security checks, and real-time monitoring, enhancing software deployment efficiency.

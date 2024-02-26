@@ -1,14 +1,15 @@
 ---
-date: '2017-11-01'
-title: 'Apple Music Facebook Messenger Integration'
+date: '2024-01-27'
+title: 'CI/CD Pipeline for Node.js Application'
 github: ''
-external: 'https://www.theverge.com/2017/10/5/16433770/facebook-messenger-apple-music-bot-song-streaming'
+external: 'https://medium.com/@laxmankandhukuri'
 tech:
-  - Ember
-  - JS
-  - SCSS
-company: 'Apple'
+  - Git
+  - Jenkins
+  - Docke
+  - AWS (Elastic Beanstalk
+company: ''
 showInProjects: true
 ---
 
-Facebook Messenger chat bot extension featuring authentication and full song streaming from within the Messenger app. Read more about it on [The Verge](https://www.theverge.com/2017/10/5/16433770/facebook-messenger-apple-music-bot-song-streaming).
+Create a CI/CD pipeline for a Node.js application. Utilize Git for version control, Jenkins for continuous integration, Docker for containerization, and AWS Elastic Beanstalk for deployment.

@@ -136,12 +136,13 @@ const About = () => {
           <div>
             <p>
               Hello! My name is Laxman and I enjoy creating things that live on the internet. My
-              interest in Devops started back in 2010 when I decided to Join in IT Industry — turns out taught me a lot
-              about Linux &amp; Network!
+              interest in IT started back in 2016 when I decided to Join in Hardware and Network course  — turns out taught me a lot
+              about Computers &amp; Network!
+            Then I worked as part-time Engineer from 2016 to 2020 After that in 2020 I joined in IT Industry as Support Engineer.
             </p>
 
             <p>
-              Fast-forward to Today, I'm dedicated to building resilient, scalable, and agile systems that empower organizations to deliver exceptional digital experiences. My unique journey from IT support to DevOps reflects my commitment to growth, innovation, and driving positive change in the ever-evolving landscape of technology.
+              Fast-forward to Today, I'm dedicated to building Devops Solutions. My unique journey from IT support to DevOps reflects my commitment to growth, innovation, and driving positive change in the ever-evolving landscape of technology.
             </p>
 
             <p>
@@ -149,7 +150,7 @@ const About = () => {
               <a href="https://medium.com/@laxmankandhukuri">
                 Started bloging
               </a>{' '}
-              that covers everything I learned and some Projects.
+              that covers What I learned and some Projects.
             </p>
 
             <p>Here are a few technologies I’ve been working with recently:</p>
